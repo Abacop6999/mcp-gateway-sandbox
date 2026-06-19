@@ -1,0 +1,9 @@
+{
+  "name": "mcp-gateway-sandbox",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r run dev",
+    "build": "pnpm -r run build",
+    "start": "pnpm -r run start"
+  }
+}

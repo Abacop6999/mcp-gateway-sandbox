@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0f111a;
+  --foreground: #e4e4e7;
+  --accent: #3b82f6;
+  --success: #10b981;
+  --error: #ef4444;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+.glass-panel {
+  background: rgba(30, 33, 43, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.terminal-ui {
+  background-color: #1e1e1e;
+  font-family: 'Courier New', Courier, monospace;
+  color: #cccccc;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-y: auto;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}
+
+.terminal-ui::-webkit-scrollbar {
+  width: 8px;
+}
+.terminal-ui::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+.glow-btn {
+  transition: all 0.2s ease-in-out;
+}
+.glow-btn:hover {
+  box-shadow: 0 0 15px var(--accent);
+  transform: translateY(-1px);
+}
+.glow-btn-success:hover {
+  box-shadow: 0 0 15px var(--success);
+}
