@@ -81,3 +81,6 @@ pnpm start
 
 1. `execute_sandbox_code`: Inyecta payload JavaScript, TypeScript o Python en un contendor aislado (sin red, CPU/Memoria limitados a 50MB, destrucción en 5s).
 2. `run_postman_collection`: Descarga y ejecuta aserciones de colecciones JSON usando `newman` en fondo, obteniendo estadísticas precisas.
+
+<img width="1142" height="949" alt="Captura de pantalla 2026-06-19 172422" src="https://github.com/user-attachments/assets/a57683b1-1e0e-4c63-8dab-902aff1ed6d1" />
+
